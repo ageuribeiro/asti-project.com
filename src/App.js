@@ -1,3 +1,7 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import UploadPage from './componentes/UploadPage';
+import ListPage from './componentes/ListPage';
 import logo from './logo.svg';
 import './App.css';
 
