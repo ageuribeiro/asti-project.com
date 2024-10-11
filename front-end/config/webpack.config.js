@@ -1,3 +1,4 @@
+// eslint-disable-next-line strict
 'use strict';
 
 const fs = require('fs');
@@ -570,6 +571,7 @@ module.exports = function (webpackEnv) {
           {
             inject: true,
             template: paths.appHtml,
+            filename:"../../templates/index.html",
           },
           isEnvProduction
             ? {
